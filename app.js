@@ -9,3 +9,5 @@ var n=prompt("Enter a number for table:")
 var m=prompt("Enter a limit for the table")
 for(var i=1;i<=m;i++)
 document.write(n+" * " +i +" ="+i*n+"<br>")
+var name="aliabbas"
+document.write(name.slice(0,1).toUpperCase()+name.slice(1).toLowerCase())
